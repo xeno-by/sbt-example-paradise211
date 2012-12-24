@@ -9,6 +9,7 @@ object BuildSettings {
     scalacOptions ++= Seq(),
     // follow the instructions at http://scalamacros.org/download.html to obtain a build of macro paradise
     // make sure you use SBT 0.13, because otherwise you'll have problems with https://github.com/harrah/xsbt/issues/626
+    // upd: actually, SBT 0.12.2-RC1 is good enough
     scalaHome := Some(file("/Users/xeno_by/Projects/Kepler_typemacros/build/pack")),
     unmanagedBase := file("/Users/xeno_by/Projects/Kepler_typemacros/build/pack/lib")
   )
