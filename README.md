@@ -1,11 +1,1 @@
-An example SBT project which uses macro paradise (Scala macro-paradise, SBT 0.12)
-
-Follow the instructions at http://scalamacros.org/download.html to obtain a build of macro paradise.
-Make sure you use SBT 0.13, because otherwise you'll have problems with https://github.com/harrah/xsbt/issues/626.
-Update: Actually, SBT 0.12.2-RC1 is good enough.
-
-To verify that everything works fine, do `sbt run`.
-
-Also note that currently SBT doesn't support recompilation of macro clients if macro implementation has changed: https://github.com/harrah/xsbt/issues/399.
-
-Huge thanks to Paul Butcher, who set up and kindly published his paradise build at https://github.com/paulbutcher/ScalaMock/blob/typemacros/project/Build.scala.
+Discontinued since paradise 2.0.0-SNAPSHOT that only supports Scala 2.10 [http://scalamacros.org/news/2013/08/05/macro-paradise-2.0.0-snapshot.html](http://scalamacros.org/news/2013/08/05/macro-paradise-2.0.0-snapshot.html)
